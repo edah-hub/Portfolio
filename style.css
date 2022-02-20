@@ -10,7 +10,7 @@
 .nav_bar{
     position: fixed;
     width: 100%;
-    background: crimson;
+    background: plum;
     font-family: "ubuntu",sans-serif;
 
 }
@@ -19,11 +19,20 @@
     color: #000;
 }
 
+.nav_bar .logo span{
+    color: crimson;
+}
+
 .nav_bar .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 500;   
 
+}
+
+.nav_bar .logo a:hover{
+    color: crimson;
+;
 }
 
 .nav_bar li{
@@ -48,6 +57,13 @@
   font-size: 20px;
   font-weight: 500; 
   margin-left: 24px;
+
+}
+
+.nav_bar .menu li a:hover{
+    color: crimson;
+    transition: color 0.3s ease;
+
 }
 
 /* styling home section */
@@ -65,9 +81,15 @@
 .home .max_width{
     margin: auto 0% auto 0%;
 }
+  
 
-.home_text{
+.home .home_content .home_text{
+    font-size: 28px;
     font-weight: 900;
-   
+ 
+}
 
+.home .home_content .home_text span{
+  color: crimson; 
+  font-weight: 500; 
 }
