@@ -56,5 +56,18 @@
   background: url("bc.jpeg") no-repeat center; 
   height: 100vh; 
   color: #000;
-  min-width: 500px;
+  min-height: 500px;
+  font-family: 'ubuntu',sans-serif;
+  
+
+}
+
+.home .max_width{
+    margin: auto 0% auto 0%;
+}
+
+.home_text{
+    font-weight: 900;
+   
+
 }
