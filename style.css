@@ -15,10 +15,24 @@
 
 }
 
-.nav_bar .logo a{
-    font-size: 35px;
-    font-weight: 500;
+.nav_bar .logo{
+    color: #000;
+}
 
+.nav_bar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;   
+
+}
+
+.nav_bar li{
+    list-style: none;
+    display: inline-block;
+}
+.nav_bar .max_width{
+ display: flex;
+ align-items: center;   
 }
 
 .nav_bar .menu li a{
