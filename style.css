@@ -30,11 +30,31 @@
     list-style: none;
     display: inline-block;
 }
+
+.max_width{
+
+    max-width: 1200px;
+    padding: 0% 80px;
+    margin: auto;
+}
 .nav_bar .max_width{
  display: flex;
- align-items: center;   
+ align-items: center;  
+ justify-content: space-between; 
 }
 
 .nav_bar .menu li a{
-  color: black;  
+  color: black; 
+  font-size: 20px;
+  font-weight: 500; 
+  margin-left: 24px;
+}
+
+/* styling home section */
+.home{
+  display: flex;
+  background: url("bc.jpeg") no-repeat center; 
+  height: 100vh; 
+  color: #000;
+  min-width: 500px;
 }
