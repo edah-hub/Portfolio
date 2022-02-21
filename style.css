@@ -15,6 +15,12 @@
 
 }
 
+.max_width{
+    max-width: 1300px;
+    padding: 0%80px;
+    margin: auto;
+}
+
 .nav_bar .logo{
     color: #000;
 }

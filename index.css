@@ -1,4 +1,40 @@
 /* menu button styling */
 .menu_btn{
-color: #fff;
+color: #000;
+font-size: 22px;
+font-weight: 100;
+cursor: pointer;
+display: none;
+}
+
+/* responsive media query */
+@media (max-width:990px) {
+    .max_width{
+        max-width: 1300px;
+        padding: 0% 48px;
+        margin: auto;
+    }
+    .nav_bar .menu{
+        position: fixed;
+        height: 100vh;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        color: black; 
+        font-size: 20px;
+        font-weight: 500; 
+        padding-top: 40px;            
+      
+      }
+      .nav_bar .menu li{
+          display: block;
+          text-align: center;
+      }
+      .nav_bar .menu li a{
+          display: inline-block;
+          margin: 8px 0%;
+      }
+      .menu_btn{
+          display: block;
+      }
 }
