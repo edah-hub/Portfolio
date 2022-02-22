@@ -46,7 +46,11 @@ display: none;
          text-align: justify;
 }
 
-       .My_Projects h2{
+       .My_Projects{
+           background: linear-gradient(rgb(94, 165, 94),grey);
+       }
+
+        .My_Projects h2{
            align-items: center;
 
        }
