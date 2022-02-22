@@ -104,5 +104,15 @@
 .About{
     font-family: "Poppins",sans-serif;
     
-
 }
+
+.About h2{
+    font-family: "ubuntu";
+    text-align: center;
+   }
+
+   .About .About_content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}     
