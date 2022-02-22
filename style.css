@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+section{
+    padding: 108px 0;
+}
+
 /* navbar styling */
 .nav_bar{
     position: fixed;
@@ -109,10 +113,16 @@
 .About h2{
     font-family: "ubuntu";
     text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
    }
 
    .About .About_content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
+   
+    
 }     
