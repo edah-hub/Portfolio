@@ -39,3 +39,9 @@ display: none;
       }
 }
 
+.About .About_content .right .text1{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    text-align: justify;
+}
