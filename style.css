@@ -111,6 +111,7 @@ section{
 }
 
 .About h2{
+    position: relative;
     font-family: "ubuntu";
     text-align: center;
     font-size: 25px;
@@ -119,10 +120,41 @@ section{
     padding-bottom: 20px;
    }
 
-   .About .About_content .left img{
+   .About .About_content {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .About .About_content .left{
+       width: 40%;
+   }
+
+.About .About_content h2::before{
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    
+   }
+
+.About .About_content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
    
     
 }     
+
+.About .About_content .right{
+    width: 40%;
+}
+
+.About .About_content .right .text{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    
+}
+
