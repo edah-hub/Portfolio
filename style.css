@@ -178,6 +178,11 @@ section{
 
 }
 
+.view{
+    background: plum;
+    color: #000; 
+}
+
 .About .About_content .right a:hover{
     color: crimson;
     background: none;

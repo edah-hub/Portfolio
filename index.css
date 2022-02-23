@@ -50,7 +50,13 @@ display: none;
            background: linear-gradient(rgb(94, 165, 94),grey);
        }
 
+       .My_Projects_Content{
+           display: flex
+       }
+
         .My_Projects h2{
            align-items: center;
 
        }
+
+      
