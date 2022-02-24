@@ -47,7 +47,7 @@ display: none;
 }
 
        .My_Projects{
-           background: linear-gradient(rgb(94, 165, 94),grey);
+           background: linear-gradient(rgb(94, 165, 94),rgb(94, 144, 153),grey);
        }
 
        .My_Projects_Content{
@@ -59,14 +59,14 @@ display: none;
 
        }
       
-       .My_Projects_Content img{
+        .My_Projects_Content img{
         width: 700px;   
         height: 700px;
         padding: 3% 3%;
-        margin-right: -22.5%;
-      
+         margin-right: -22.5%; 
+       
         
-    }
+    } 
 
        .My_Projects_Content h2{
            align-content: center;
