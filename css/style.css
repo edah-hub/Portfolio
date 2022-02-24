@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=ubuntu:wght@400;500;600;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+section {
+  padding: 108px 0;
+}
+
+/* navbar styling */
+.nav_bar {
+  position: fixed;
+  width: 100%;
+  background: plum;
+  font-family: "ubuntu", sans-serif;
+}
+
+.max_width {
+  max-width: 1300px;
+  padding: 0%80px;
+  margin: auto;
+}
+
+.nav_bar .logo {
+  color: #000;
+}
+
+.nav_bar .logo span {
+  color: crimson;
+}
+
+.nav_bar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.nav_bar .logo a:hover {
+  color: crimson;
+}
+
+.nav_bar li {
+  list-style: none;
+  display: inline-block;
+}
+
+.max_width {
+  max-width: 1200px;
+  padding: 0% 80px;
+  margin: auto;
+}
+.nav_bar .max_width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_bar .menu li a {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 24px;
+}
+
+.nav_bar .menu li a:hover {
+  color: crimson;
+  transition: color 0.3s ease;
+}
+
+/* styling home section */
+.home {
+  display: flex;
+  background-image: url("/images/bc.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #000;
+  min-height: 500px;
+  font-family: "ubuntu", sans-serif;
+}
+
+.home .max_width {
+  margin: auto 0% auto 0%;
+}
+
+.home .home_content .home_text {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.home .home_content .home_text span {
+  color: crimson;
+  font-weight: 500;
+}
+
+/* About Section Styling */
+.About {
+  font-family: "Poppins", sans-serif;
+}
+
+.About h2 {
+  position: relative;
+  font-family: "ubuntu";
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.About .About_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.About .About_content .left {
+  width: 40%;
+}
+
+.About .About_content h2::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 5px;
+}
+
+.About .About_content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.About .About_content .right {
+  width: 40%;
+}
+
+.About .About_content .right .text {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.About .About_content .right .text1 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.About .About_content .right a {
+  box-sizing: border-box;
+  display: inline-block;
+  background: plum;
+  padding: 3px 30px;
+  margin: 3px 3px;
+  border-radius: 4px;
+  padding: 0% 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.view {
+  background: plum;
+  color: #000;
+}
+
+.About .About_content .right a:hover {
+  color: crimson;
+  background: none;
+}
