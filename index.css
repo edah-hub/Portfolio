@@ -58,5 +58,18 @@ display: none;
            align-items: center;
 
        }
+      
+       .My_Projects_Content img{
+        width: 700px;   
+        height: 700px;
+        padding: 3% 3%;
+        margin-right: -22.5%;
+      
+        
+    }
+
+       .My_Projects_Content h2{
+           align-content: center;
+       }
 
       
