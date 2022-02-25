@@ -73,7 +73,8 @@ section {
 /* styling home section */ 
  .home {
   display: flex;
-  background-image: url("/images/bc.jpeg");
+  background-size: cover;
+  background-color: #cccccc;
   background-repeat: no-repeat;
   height: 100vh;
   color: #000;
@@ -81,12 +82,12 @@ section {
   font-family: "ubuntu", sans-serif;
 }
 
-/* .home {
+ /* .home {
     width: 500px;
     height: 400px;
-    background:url("/images/bc.jpeg");
-    position: relative;
-}
+    /* background:url("/images/bc.jpeg"); */
+    /* position: relative; */
+/* } */ */
 
 .home .home_content .home_text{
     font-size: 23px;
@@ -96,7 +97,7 @@ section {
     position: absolute;
     top: 160px;
     left: 22px;
-} */
+} 
 
 
 .home .max_width {

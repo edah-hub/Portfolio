@@ -73,6 +73,7 @@ display: none;
        }
 
        .Footer{
+          text-align: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
        }
 
