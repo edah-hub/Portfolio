@@ -47,7 +47,7 @@ display: none;
 }
 
        .My_Projects{
-           background: linear-gradient(rgb(94, 165, 94),rgb(94, 144, 153),grey);
+           background: linear-gradient(rgb(91, 94, 91),rgb(94, 144, 153),grey);
        }
 
        .My_Projects_Content{
@@ -69,12 +69,33 @@ display: none;
     } 
 
        .My_Projects_Content h2{
-           align-content: center;
+           text-align: center;
        }
 
-       .Footer{
-          text-align: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
+       /* .skills{
+        text-align: center;
+
+       } */
+
+       .form{
+        text-align: center; 
        }
+
+
+
+       .Footer{
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
+       font-size: 30px;
+       font-weight: 800;
+    }
+
+      /* .Footer .accounts a{
+          background-color: #000;
+      } */
+
+      .Footer .accounts a:hover{
+        background-color:white;
+    }
 
       

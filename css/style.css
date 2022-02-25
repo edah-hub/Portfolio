@@ -15,6 +15,7 @@ section {
   position: fixed;
   width: 100%;
   background: plum;
+  margin: 20px;
   font-family: "ubuntu", sans-serif;
 }
 
@@ -192,3 +193,7 @@ section {
   color: crimson;
   background: none;
 }
+/* 
+.container img{
+  height: 30%;
+} */
