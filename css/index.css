@@ -46,6 +46,8 @@ display: none;
          text-align: justify;
 }
 
+/* Projects Section Styling */
+
        .My_Projects{
            background: linear-gradient(rgb(91, 94, 91),rgb(94, 144, 153),grey);
        }
@@ -59,23 +61,41 @@ display: none;
 
        }
       
-        .My_Projects_Content img{
+        /* .My_Projects_Content img{
         width: 700px;   
         height: 700px;
         padding: 3% 3%;
          margin-right: -22.5%; 
-       
+        */
+        .My_Projects_Content img{
+        width: 400%;   
+        height: 12cm;
+        padding: 3% 3% 3% 3%;
+        margin-inline-end: 2%;
+        
         
     } 
 
        .My_Projects_Content h2{
            text-align: center;
+         
        }
 
-       /* .skills{
-        text-align: center;
+       .skills{
+           text-align: center;
+           justify-content: center;
+          list-style-type: none;
+       }
 
-       } */
+       .skills .card{
+      width: calc(50% -20px);
+      
+
+       }
+
+       .skills .container .card .li{
+           list-style-type: none;
+       }
 
        .form{
         text-align: center; 
