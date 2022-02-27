@@ -193,6 +193,10 @@ section {
   color: crimson;
   background: none;
 }
+
+li{
+  list-style-type: none;
+}
 /* 
 .container img{
   height: 30%;
