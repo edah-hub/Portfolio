@@ -83,16 +83,19 @@ section {
   font-family: "ubuntu", sans-serif;
 }
 
- /* .home {
+
+
+ .home .home_image{
     width: 500px;
     height: 400px;
-    /* background:url("/images/bc.jpeg"); */
-    /* position: relative; */
-/* } */ */
+    margin-left: 90%;
+    margin-top: -50%;
+   
+}
 
 .home .home_content .home_text{
     font-size: 23px;
-    color: #fff;
+    color: rgb(19, 15, 15);
     text-transform: uppercase;
     font-family: sans-serif;
     position: absolute;

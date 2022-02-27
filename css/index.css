@@ -7,6 +7,14 @@ cursor: pointer;
 display: none;
 }
 
+.home{
+    display: flex;
+    background-image: url(images/bc.jpeg);
+}
+ .home_image{
+     float: left;
+ }
+
 /* responsive media query */
 @media (max-width:990px) {
     .max_width{
@@ -70,7 +78,7 @@ display: none;
         .My_Projects_Content img{
         width: 400%;   
         height: 12cm;
-        padding: 3% 3% 3% 3%;
+        padding: 0% 83% 83% 0%;
         margin-inline-end: 2%;
         
         
@@ -89,6 +97,7 @@ display: none;
 
        .skills .card{
       width: calc(50% -20px);
+      justify-content: center;
       
 
        }
@@ -96,6 +105,10 @@ display: none;
        .skills .container .card .li{
            list-style-type: none;
        }
+
+       /* .skills{
+           font-size: 24px;
+       } */
 
        .form{
         text-align: center; 
