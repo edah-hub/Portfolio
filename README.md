@@ -1,5 +1,5 @@
 # Portfolio
-This is a website that showcases Janeffer's Interests. hobbies. skills etc
+This is my portfolio landing page. It contains my Biography, education, contacts, and future plans. It is deployed with a live link as below.
 ## Technologies Used
 - HTML
 - CSS (Bootstrap)
